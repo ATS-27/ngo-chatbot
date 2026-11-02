@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vasundhara Abhiyan - Sample Website (Widget Demo)</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: #1e293b; background: #f8fafc; line-height: 1.6; }
+    header { background: #005c35; color: white; padding: 1.5rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    header h1 { font-size: 1.4rem; display: flex; align-items: center; gap: 8px; }
+    nav a { color: #d1fae5; text-decoration: none; margin-left: 1.5rem; font-size: 0.95rem; font-weight: 500; }
+    nav a:hover { color: white; }
+    .hero { background: linear-gradient(rgba(0, 92, 53, 0.85), rgba(0, 71, 41, 0.95)), url('https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=1600&q=80') center/cover; color: white; padding: 5rem 2rem; text-align: center; }
+    .hero h2 { font-size: 2.5rem; margin-bottom: 1rem; }
+    .hero p { font-size: 1.15rem; max-width: 680px; margin: 0 auto 2rem; color: #ecfdf5; }
+    .badge { display: inline-block; background: rgba(255, 255, 255, 0.2); padding: 4px 12px; border-radius: 20px; font-size: 0.85rem; margin-bottom: 1rem; }
+    .content { max-width: 1000px; margin: 3rem auto; padding: 0 1.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; }
+    .card { background: white; padding: 1.8rem; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; }
+    .card h3 { color: #005c35; margin-bottom: 0.8rem; }
+    footer { text-align: center; padding: 2rem; background: #0f172a; color: #94a3b8; font-size: 0.9rem; margin-top: 4rem; }
+    .demo-notice { background: #fef3c7; border: 1px solid #f59e0b; color: #92400e; padding: 12px 20px; border-radius: 8px; max-width: 1000px; margin: 2rem auto -1rem; font-size: 0.9rem; text-align: center; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌿 Vasundhara Abhiyan Pune</h1>
+    <nav>
+      <a href="#">About Us</a>
+      <a href="#">Our Hills</a>
+      <a href="#">Get Involved</a>
+      <a href="#">Donate</a>
+    </nav>
+  </header>
+
+  <div class="demo-notice">
+    💡 <strong>NGO Mentor Demo Preview:</strong> This page simulates how the Chatbot Widget embeds onto the NGO's actual website with a single <code>&lt;script src="widget.js"&gt;&lt;/script&gt;</code> tag! Look at the bottom right corner 👇
+  </div>
+
+  <section class="hero">
+    <div class="badge">🌱 Greening Baner-Pashan Hills Since 2006</div>
+    <h2>Transforming Barren Hills into Living Biodiversity</h2>
+    <p>Over 10,000+ native trees planted across Tukai Hill, Baner Hill, and Ramnadi watershed with sustainable water harvesting and 100% community volunteers.</p>
+  </section>
+
+  <main class="content">
+    <div class="card">
+      <h3>🤝 Daily Volunteer Drives</h3>
+      <p>Join us every morning from <strong>7:00 AM to 9:00 AM</strong> at Tukai Hill, Baner. No registration fees, equipment provided. Just bring a water bottle!</p>
+    </div>
+    <div class="card">
+      <h3>🌳 Native Trees Only</h3>
+      <p>We nurture native biodiversity: Banyan (Vad), Peepal, Neem, Karanj, Gulmohar, and Cassia fistula, supporting local bird & insect life.</p>
+    </div>
+    <div class="card">
+      <h3>💳 80G Tax Exemption</h3>
+      <p>All donations to Vasundhara Abhiyan are 50% tax-exempt under Section 80G of the Indian Income Tax Act. 100% funds go directly to drip irrigation and saplings.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2026 Vasundhara Abhiyan. Baner-Pashan Link Road, Pune, Maharashtra 411045.</p>
+  </footer>
+
+  <!-- Standalone Embed Widget -->
+  <script src="/widget.js"></script>
+</body>
+</html>
